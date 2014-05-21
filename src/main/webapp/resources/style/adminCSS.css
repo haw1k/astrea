@@ -44,7 +44,7 @@ color:#363636;
     font-weight: normal;
     position: relative;
     text-shadow: 0 2px 0 rgba(255,255,255,0.5);
-    font-size: 56px;
+    font-size: 300%;
     line-height: 40px;
     font-family: 'Carrois Gothic', sans-serif;
 }
@@ -100,6 +100,7 @@ a:hover {
 /*Главная область сайта*/
 #container {
     width:80%;
+    min-width:1200px;
 	height:100%;
 	margin:0 auto;
 }
@@ -123,8 +124,7 @@ a:hover {
 
 /*Главное меню*/
 	#mainMenu {
-		max-width:1415px;
-		min-width:1140px;
+		width:100%;
 		border:3px solid #cead56;
 		-moz-border-radius:5px;
 		-webkit-border-radius:5px;
@@ -187,7 +187,7 @@ a:hover {
 								text-align:center;
 								text-decoration:none;
 								color:#fff;
-								font:20px/50px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+								font:135%/255% "Palatino Linotype", "Book Antiqua", Palatino, serif;
 							}
 							#mainMenu a:hover {
 								color:#363636;
@@ -266,17 +266,25 @@ a:hover {
 
     #turns_grid {
         float:left;
+        width:60%;
     }
 
     #categories_grid {
         float:left;
+        width:40%;
     }
 
     #turnsprices_form {
         float:right;
         height:300px;
-        width:500px;
+        width:35%;
         margin-right: 50px;
+    }
+
+    #turnsprices_grid {
+        float:left;
+        width:60%;
+        height:560px;
     }
 
     .grids {

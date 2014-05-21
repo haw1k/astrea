@@ -46,8 +46,8 @@
                 colNames:['${labelCreationDate}','${labelTurnTitle}','${labelTurnCategory}'],
                 colModel :[
                     {name:'creationDateString',index:'creationDate', width:15, align:"center" },
-                    {name:'title', index:'title', width:45, align:"center"},
-                    {name:'turnCategory.title', index:'turnCategory.title', width:45, align:"center"}
+                    {name:'title', index:'title', width:65, align:"center"},
+                    {name:'turnCategory.title', index:'turnCategory.title', width:20, align:"center"}
                 ],
                 jsonReader : {
                     root:"turnData",
@@ -64,11 +64,12 @@
                 sortname: 'title',
                 sortorder: 'asc',
                 viewrecords: true,
+                autowidth:true,
                 gridview: true,
-                width:864,
                 height:460,
                 caption: '${labelTurnsList}'
             });
+
 
             //Добавляем панель управления услугами
             $("#turns_list").jqGrid('navGrid','#pager',
@@ -138,7 +139,7 @@
                     sortorder: 'asc',
                     viewrecords: true,
                     gridview: true,
-                    width:500,
+                    autowidth:true,
                     height:460,
                     caption: '${labelCategoriesList}'
                 });
