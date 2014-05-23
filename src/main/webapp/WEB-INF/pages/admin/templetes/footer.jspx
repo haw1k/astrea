@@ -5,7 +5,7 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     <jsp:directive.page pageEncoding="UTF-8"/>
-
     <spring:message code="copyright" var="copyright"/>
+
     <div id="copyright">${copyright}</div>
 </div>

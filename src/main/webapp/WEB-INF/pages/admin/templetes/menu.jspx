@@ -15,6 +15,7 @@
     <spring:message code="button_6" var="button6"/>
     <spring:url value="/admin/turns" var="turnsUrl"/>
     <spring:url value="/admin/turnsprices" var="turnsPricesUrl"/>
+
     <ul>
         <li><div class="hover"><a href="${turnsUrl}">${button1}</a></div></li>
         <li><div class="hover"><a href="${turnsPricesUrl}">${button2}</a></div></li>
@@ -23,4 +24,5 @@
         <li><div class="hover"><a href="#">${button5}</a></div></li>
         <li><div class="hover"><a href="#">${button6}</a></div></li>
     </ul>
+
 </div>

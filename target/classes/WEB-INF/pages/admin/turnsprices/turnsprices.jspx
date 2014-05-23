@@ -54,7 +54,7 @@
                 sortorder: 'asc',
                 viewrecords: true,
                 gridview: true,
-                width:750,
+                autowidth:true,
                 height:460,
                 caption: '${labelTurnsPrices}'
             });
@@ -147,7 +147,7 @@
             <div id="message" class="${message.type}">${message.message}</div>
         </c:if>
 
-        <div id="turns_grid">
+        <div id="turnsprices_grid">
             <table id="turnsprices_list"><jsp:text/></table>
             <div id="pager"><jsp:text/></div>
         </div>
