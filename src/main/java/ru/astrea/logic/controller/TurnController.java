@@ -29,7 +29,7 @@ import java.io.InputStream;
 import java.util.List;
 import java.util.Locale;
 
-@RequestMapping({"admin/", "admin/turns"})
+@RequestMapping({"admin", "admin/turns"})
 @Controller
 public class TurnController {
     @Autowired
